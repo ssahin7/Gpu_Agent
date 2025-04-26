@@ -1,0 +1,82 @@
+GPU Öneri Uygulaması Kullanım Kılavuzu
+Bu program, senin yazdığın ihtiyaca göre en uygun ekran kartlarını (GPU'ları) bulur ve listeler.
+
+İşte nasıl çalıştığı:
+
+📋1. İhtiyacını Yaz
+Sol taraftaki kutuya neye ihtiyacın olduğunu anlatıyorsun.
+
+Örneğin:
+
+"Ofis kullanımı için orta performanslı bir kart arıyorum."
+
+"Yapay zeka için yüksek hızlı, VRAM'i 24 GB üstü bir ekran kartı lazım."
+
+İpuçları:
+
+İstersen VRAM, CUDA, kullanım alanı gibi detaylar da yazabilirsin.
+
+Ne kadar açık yazarsan, sonuçlar o kadar isabetli olur.
+
+🔍 2. "Önerileri Getir" Butonuna Bas
+Yeşil renkli "Önerileri Getir" butonuna basıyorsun.
+Program yazdıklarını okuyup, veritabanından sana uygun kartları buluyor.
+
+📃 3. Sonuçları Sağ Tarafta Gör
+Sağdaki kutuda:
+
+->GPU model ismi
+
+->VRAM ve CUDA bilgisi
+
+->Performansı, hızı, kullanım alanı gibi özellikleri listelenir.
+
+💾 4. İstersen Sonuçları Kaydet
+Sağ alttaki "Excel'e Kaydet" mavi butonuna basarsan:
+
+Listelenen sonuçlar .xlsx dosyası olarak bilgisayarına kaydedilir.
+
+♻️ 5. Yeni Arama Yapmak İçin Temizle
+Kırmızı "Temizle" butonuna basarsan:
+
+Yazdığın metin ve bulunan sonuçlar temizlenir.
+
+Yeni bir arama yapabilirsin.
+
+⚙️ Arka Planda Sistem Nasıl Çalışıyor?
+Senin yazdıklarına göre arka planda şu işlemler yapılır:
+
+1. Öncelik Sıralaması
+Program öncelikle şu bilgileri anlamaya çalışır:
+
+Performans seviyesi (çok yüksek, yüksek, orta, düşük)
+
+Hız seviyesi (ultra, çok yüksek, yüksek, orta-yüksek, orta, düşük)
+
+Kullanım alanı (ofis, yapay zeka, oyun, render, vb.)
+
+Minimum VRAM (bellek) miktarı (örneğin 16 GB, 24 GB gibi)
+
+Minimum CUDA çekirdek sayısı
+
+Önce bu kriterlere uygun GPU'lar filtrelenir.
+
+2. Skorlama Sistemi
+Her GPU, 3 ana kritere göre puanlanır:
+
+
+Kriter	Nasıl Puan Verilir?
+Performans	Çok yüksek = 4.0, Yüksek = 3.0, Orta = 2.0, Düşük = 1.0
+Hız	Ultra = 4.0, Çok yüksek = 3.5, Yüksek = 3.0, Orta-Yüksek = 2.5, Orta = 2.0, Düşük = 1.0
+Bellek Bant Genişliği	(Normal ekran kartlarında) daha fazla bant genişliği = daha yüksek puan. (Mac çiplerinde sabit.)
+Toplam Skor = Performans Puanı + Hız Puanı + Bellek Bant Genişliği Puanı
+
+3. Öneri
+Tüm kartlar skora göre sıralanır.
+
+En yüksek puanlı ilk 5-7 kart listelenir ve sana gösterilir.
+
+🎯 Özetle:
+Yazıyorsun ➔ Seçiyor ➔ Puanlıyor ➔ Sıralıyor ➔ Sana sunuyor!
+İstersen Excel'e de kaydedebiliyorsun.
+
