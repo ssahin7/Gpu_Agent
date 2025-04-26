@@ -1,0 +1,34 @@
+GPU Modeli,VRAM (GB),CUDA Çekirdekleri,Bellek Bant Genişliği (GB/s),Kullanım Alanları,Performans,Hız
+M4,16,0,0,"macOS genel hesaplama, grafik hızlandırma, video düzenleme, makine öğrenmesi çıkarımı",Yüksek  ,Çok Yüksek
+M4 Pro,36,0,0,"Profesyonel video düzenleme, 3B render, karmaşık ML eğitimi/çıkarımı, çoklu uygulama iş akışları",Çok Yüksek  ,Çok Yüksek
+M3 Pro,36,0,0,"Profesyonel foto/video düzenleme, 3B modelleme, ML çıkarımı, yazılım geliştirme",Yüksek  ,Çok Yüksek
+M2 Pro,32,0,0,"8K video düzenleme, 3B modelleme, kod derleme, profesyonel iş akışları",Yüksek  ,Yüksek
+M3,24,0,0,"Günlük kullanım, medya oynatma, hafif oyun, temel ML çıkarımı","Orta,Düşük ",Orta
+A100-PCIE-40GB,40,6912.0,1555.0,"HPC simülasyonları, derin öğrenme eğitimi ve çıkarımı, veri analitiği",Çok Yüksek  ,Çok Yüksek
+H100 80GB HBM3,80,16896.0,3000.0,"Büyük ölçekli AI eğitimi, çok modlu modeller, HPC, çıkarım hızlandırma",Çok Yüksek  ,Ultra
+GeForce RTX 3090,24,10496.0,936.0,"4K/8K oyun, içerik üretimi, gerçek zamanlı ray tracing, AI çıkarımı",Çok Yüksek  ,Çok Yüksek
+GeForce RTX 3080,10,8704.0,760.0,"Yüksek ayarlı oyun, VR, ray tracing, içerik üretimi",Yüksek  ,Çok Yüksek
+GeForce RTX 4090,24,16384.0,1008.0,"Bayrak gemisi oyun, AI hızlandırma, 3B render, simülasyon",Çok Yüksek  ,Ultra
+GeForce RTX 4070 Ti,12,7680.0,504.0,"Yüksek performanslı oyun, yayın akışı, yaratıcı iş yükleri, ray tracing",Yüksek  ,Çok Yüksek
+GeForce GTX 1080 Ti,11,3584.0,484.0,"Yüksek ayarlı oyun, VR, CUDA hızlandırmalı hesaplama",Orta  ,Orta-Yüksek
+GeForce RTX 4080,16,9728.0,736.0,"Üst düzey oyun, ray tracing, DLSS, içerik üretimi",Çok Yüksek  ,Ultra
+GeForce RTX 4070,12,5888.0,504.0,"1440p oyun, yayın akışı, hafif içerik üretimi",Yüksek  ,Yüksek
+GeForce RTX 3060,12,3584.0,360.0,"1080p/1440p oyun, içerik üretimi, CUDA hızlandırma",Orta  ,Orta
+GeForce RTX 4060 Ti,8,4352.0,288.0,"1080p/1440p ray tracing oyun, yayın akışı",Orta  ,Orta-Yüksek
+RTX A4000,16,6144.0,448.0,"Profesyonel CAD, DCC, gerçek zamanlı görselleştirme, GPU hesaplama",Yüksek  ,Yüksek
+GeForce RTX 3070,8,5888.0,448.0,"1440p oyun, VR, içerik üretimi",Yüksek  ,Yüksek
+GeForce RTX 3060 Ti,8,4864.0,448.0,"1440p ray tracing oyun, içerik üretimi",Orta  ,Orta-Yüksek
+GeForce RTX 3080 Ti,12,10240.0,912.0,"4K oyun, ray tracing, GPU hesaplama",Çok Yüksek  ,Çok Yüksek
+GeForce RTX 2080 Ti,11,4352.0,616.0,"Üst düzey oyun, VR, ray tracing, içerik üretimi",Yüksek  ,Yüksek
+GeForce RTX 3070 Ti,8,6144.0,608.0,"1440p ray tracing oyun, yaratıcı uygulamalar",Yüksek  ,Yüksek
+RTX A6000,48,10752.0,768.0,"Profesyonel görselleştirme, AI eğitimi/çıkarımı, HPC, CAD",Çok Yüksek  ,Çok Yüksek
+GeForce RTX 3090 Ti,24,10752.0,1008.0,"Ultra yüksek uç oyun, AI ve ray tracing, 8K içerik üretimi",Çok Yüksek  ,Çok Yüksek
+GeForce RTX 3050,8,2560.0,224.0,"Giriş seviyesi 1080p oyun, eSpor başlıkları",Düşük  ,Orta
+GeForce RTX 4060,8,3072.0,272.0,"1080p ray tracing oyun, içerik üretimi",Orta  ,Orta
+RTX 4000,8,2304.0,416.0,"Profesyonel iş istasyonu görevleri, CAD, DCC, GPU hesaplama",Orta  ,Orta-Yüksek
+Tesla V100-SXM2-16GB,16,5120.0,900.0,"HPC, AI eğitimi/çıkarımı, bilimsel hesaplama",Çok Yüksek  ,Yüksek
+Tesla V100-SXM2-32GB,32,5120.0,900.0,"Büyük ölçekli AI eğitimi, çok düğümlü kümeler",Çok Yüksek  ,Yüksek
+Tesla T4,16,2560.0,320.0,"AI çıkarımı, video kodlama, gerçek zamanlı hizmetler",Orta  ,Orta
+RTX A5000,24,8192.0,768.0,"Profesyonel görselleştirme, VR, AI geliştirme, render",Yüksek  ,Çok Yüksek
+H100 PCIe,80,16896.0,2000.0,"Büyük ölçekli AI eğitimi/çıkarımı, HPC",Çok Yüksek  ,Ultra
+RTX 5000,16,3072.0,448.0,"Profesyonel grafik, VR, iş istasyonu hesaplamaları, simülasyon",Orta  ,Orta-Yüksek
