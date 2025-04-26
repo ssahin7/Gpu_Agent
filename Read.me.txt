@@ -1,1 +1,4 @@
-Bu proje io.net üzerinde kiralanabilecek GPU modellerinin io.net API kullanarak kullanıcı promtlarına göre GPU önerisi sunmaktadır. Sunduğu GPUların özelliklerini kullanıcıya bildirmektedir. NLP modeli io.net aracılığı ile sağlanmış olup piyasada bulunan tüm GPUlar veri setine eklenerek daha kapsamlı sonuçlar ile geliştirilebilir.
+Bu proje io.net üzerinde kiralanabilecek GPU modellerinin İO.net custom agent API kullanarak kullanıcı promtlarına göre GPU önerisi sunmaktadır. 
+Sunduğu GPUların özelliklerini kullanıcıya bildirmektedir.
+NLP modeli io.net aracılığı ile sağlanmış olup piyasada bulunan tüm GPUlar veri setine eklenerek daha kapsamlı sonuçlar ile geliştirilebilir.
+Model kullanıcı komutlarını anlayıp kullanıcının ihtiyacı olan en uyumlu GPUları kullanıcıya öncelik sırasına göre listelemektedir. 
