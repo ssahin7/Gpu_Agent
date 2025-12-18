@@ -1,88 +1,65 @@
-🧠⚡ GPU Comment System with io.net
-📌 Proje Hakkında
+# 🧠 GPU Comment System with io.net
 
-Bu proje, io.net altyapısı üzerinde geliştirilen, kullanıcıların GPU ihtiyaçlarını doğal dil ile ifade edebilmesini sağlayan ve bu taleplere uygun akıllı GPU önerileri ve yorumları üreten yapay zeka tabanlı bir sistemdir.
-Sistem, gerçek GPU teknik özelliklerini ve kullanım senaryolarını dikkate alarak anlamlı, gerekçeli ve karşılaştırmalı çıktılar sunar.
+## 📌 Proje Hakkında
+Bu proje, io.net altyapısı üzerinde geliştirilen ve kullanıcıların GPU ihtiyaçlarını doğal dil kullanarak ifade edebilmesini sağlayan yapay zeka tabanlı bir yorum ve öneri sistemidir. Sistem, gerçek GPU teknik özelliklerini ve kullanım senaryolarını dikkate alarak anlamlı, açıklayıcı ve gerekçeli GPU önerileri üretir.
 
-🎯 Amaç
+---
 
-🔍 GPU seçim sürecini sadeleştirmek
+## 🎯 Amaç
+- GPU seçim sürecini sadeleştirmek  
+- Teknik bilgi gerektirmeden doğal dil ile istek almak  
+- GPU kiralama ve kullanım kararlarını veri temelli hale getirmek  
+- io.net ekosistemi için agent tabanlı akıllı bir çözüm sunmak  
 
-🗣️ Teknik bilgi gerektirmeden doğal dil ile istek alma
+---
 
-📊 GPU kiralama ve kullanım kararlarını veri temelli hale getirmek
+## ✨ Sistem Özellikleri
+- Doğal dil ile GPU ihtiyacı tanımlama  
+- Kullanım amacına göre GPU analizi (AI, Render, Mining, Ofis)  
+- Gerçek GPU teknik özelliklerine dayalı değerlendirme  
+- Açıklayıcı yorum ve öneri üretimi  
+- Agent tabanlı ve genişletilebilir mimari  
 
-🤖 io.net ekosistemi için akıllı agent tabanlı çözüm geliştirmek
+---
 
-✨ Sistem Özellikleri
+## 🛠️ Kullanılan Teknolojiler
+- Python  
+- io.net API  
+- Large Language Models (LLM)  
+- Embedding ve vektör tabanlı arama  
+- FAISS / BM25  
+- Agent ve Workflow yapıları  
+- Gerçek GPU teknik özellik veri setleri  
 
-🧾 Doğal dil ile GPU ihtiyacı tanımlama
+---
 
-🎨 Kullanım amacına göre GPU analizi (AI, Render, Mining, Ofis vb.)
+## ⚙️ Çalışma Mantığı
+1. Kullanıcı GPU ihtiyacını doğal dil ile belirtir  
+2. Metin girdisi embedding’e dönüştürülür  
+3. GPU’lar teknik gereksinimlere göre filtrelenir  
+4. LLM destekli agent açıklayıcı yorumlar üretir  
+5. Kullanıcıya gerekçeli GPU önerileri sunulur  
 
-🧠 Gerçek GPU teknik özelliklerine dayalı değerlendirme
+---
 
-💬 Açıklayıcı yorum ve öneri üretimi
+## 📈 Çıktılar
+- GPU öneri listesi  
+- Kullanım senaryosuna uygunluk yorumları  
+- Teknik özellik karşılaştırmaları  
+- Karar destek metinleri  
 
-🔗 Agent tabanlı, genişletilebilir mimari
+---
 
-🛠️ Kullanılan Teknolojiler
+## 🧩 Kullanım Alanları
+- GPU kiralama platformları  
+- Yapay zeka ve veri bilimi projeleri  
+- Render ve grafik iş yükleri  
+- Karar destek sistemleri  
+- Agent tabanlı akıllı asistanlar  
 
-🐍 Python
+---
 
-☁️ io.net API
+## 📝 Not
+Bu proje, rastgele olmayan ve gerçek donanım özelliklerine dayalı sonuçlar üreten bir sistem olarak tasarlanmıştır. Agent mimarisi sayesinde yeni GPU modelleri ve kullanım senaryoları kolaylıkla sisteme entegre edilebilir.
 
-🧠 LLM (Large Language Models)
-
-📐 Embedding & Vektör Tabanlı Arama
-
-🔎 FAISS / BM25
-
-🤖 Agent & Workflow Yapıları
-
-💾 Gerçek GPU Teknik Özellik Veri Setleri
-
-⚙️ Çalışma Mantığı
-
-✍️ Kullanıcı Girdisi
-Kullanıcı GPU ihtiyacını doğal dil ile ifade eder
-(örn: “24 GB VRAM, AI eğitimi için uygun”)
-
-🧠 Doğal Dil Analizi
-Metin embedding’e dönüştürülerek anlamsal çözümleme yapılır
-
-🔍 Filtreleme & Eşleştirme
-GPU’lar kullanım amacı ve teknik gereksinimlere göre filtrelenir
-
-💬 Yorum & Öneri Üretimi
-LLM destekli agent, GPU’lar için açıklayıcı yorumlar üretir
-
-📤 Çıktı
-Kullanıcıya gerekçeli GPU önerileri sunulur
-
-📈 Çıktılar
-
-✅ GPU öneri listesi
-
-📝 Kullanım senaryosuna uygunluk yorumu
-
-📊 Teknik özellik bazlı karşılaştırma
-
-🎯 Karar destek metni
-
-🧩 Kullanım Alanları
-
-☁️ GPU kiralama platformları
-
-🤖 Yapay zeka & veri bilimi projeleri
-
-🎬 Render ve grafik iş yükleri
-
-📊 Karar destek sistemleri
-
-🧠 Agent tabanlı akıllı asistanlar
-
-📝 Not
-
-Bu proje, rastgele olmayan, gerçek donanım özelliklerine dayalı ve kullanım amacına göre mantıklı sonuçlar üreten bir sistem olarak tasarlanmıştır.
-Agent mimarisi sayesinde yeni GPU türleri ve kullanım senaryoları kolayca entegre edilebilir.
+GitHub repomu ziyaret ettiğiniz için teşekkürler.
